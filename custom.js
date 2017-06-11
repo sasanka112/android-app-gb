@@ -1,3 +1,7 @@
+
+
+
+
 var currentdate = new Date();
 
 var current_time = currentdate.toLocaleTimeString('en-US', { hour12: true, 
@@ -27,7 +31,7 @@ $("#top-date,#top-date-two").html(current_day+" "+mnth_name);
 
 $("#bottom-date,#bottom-date-two").html(current_time);
 
-$("#order-no,#order-no-two").html("111");
+$("#order-no,#order-no-two").html("117");
 
 $("#paid-on-date").html(current_day +" "+mnth_name+","+current_time);
 
@@ -41,6 +45,12 @@ $("div#use-it").click(function(){
     $("#dim-the-screen").removeClass("hide");
     $("#use-now-pop-up").removeClass("hide");
 });
+
+$("div#get-order-no").click(function(){
+    var order_no = prompt("Please enter your order number","127");
+    $("#order-no,#order-no-two").html(order_no);
+});
+
 
 $("#use-now-pop-up").click(function(){
     $("#wrapper").addClass("hide");
@@ -61,7 +71,7 @@ function startTimer(duration, display) {
         minutes = parseInt(timer / 60, 10)
         seconds = parseInt(timer % 60, 10);
 
-        minutes = minutes < 10 ? "0" + minutes : minutes;
+        minutes = minutes < 10 ?  minutes : minutes;
         seconds = seconds < 10 ? "0" + seconds : seconds;
 
         display.text(minutes + ":" + seconds);
