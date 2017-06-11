@@ -1,0 +1,115 @@
+img {
+    width: 100%;
+}
+
+#wrapper-two div,#wrapper div{
+  position: absolute;
+}
+
+#top-date{
+    top: 25.5%;
+    left: 44.3%;
+    font-size: 13px;
+    background-color: #F3F7F8;
+    color: #ACBFD0;
+    width: 15%;
+}
+#bottom-date{
+    bottom: 13%;
+    right: 8%;
+    font-size: 13px;
+    background-color: #5E8B9D;
+    color: #ACBFD0; 
+}
+div#order-no {
+    top: 54.5%;
+    left: 28.6%;
+    font-weight: 700;
+    font-size: 19px;
+    background-color: #FFFFFF;
+}
+div#paid-on-date {
+    top: 37.2%;
+    left: 37.5%;
+    font-size: 14px;
+    background-color: #5E8B9D;
+    color: #FFFFFF;
+}
+div#main-date {
+    top: 63.5%;
+    left: 28%;
+    font-weight: 700;
+    font-size: 19px;
+    background-color: #FFFFFF;
+}
+
+div#use-it {
+    bottom: 18%;
+    height: 15%;
+    width: 93%;
+}
+img#use-now-pop-up {
+    position: absolute;
+    top: 40%;
+    width: 88%;
+    left: 6%;
+}
+div#dim-the-screen {
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    opacity: 0.7;
+}
+.hide{
+  display: none !important;
+}
+
+
+
+
+
+#top-date-two {
+    top: 23%;
+    right: 10%;
+    font-size: 18px;
+    background-color: #FAF9F0;
+    color: #000;
+    width: 17%;
+    font-weight: bold;
+}
+#bottom-date-two{
+    top: 20.5%;
+    right: 12%;
+    font-size: 13px;
+    background-color: #FAF9F0;
+    color: #000;
+    font-weight: 800;
+}
+div#order-no-two {
+    top: 23.4%;
+    left: 11%;
+    font-weight: 700;
+    font-size: 19px;
+    background-color: #FAF9F0;
+}
+
+div#time-count {
+    color: #EA5555;
+    bottom: 5%;
+    left: 39%;
+    font-size: 40px;
+    background-color: #403B3B;
+}
+
+@keyframes mymove-logo {
+    from {transform: rotateY(0deg);}
+    to {transform: rotateY(360deg);;}
+}
+
+#goodbox-logo{
+    position: absolute;
+    animation: mymove-logo 3s infinite;
+    top: 11%;
+    width: 11%;
+    right: 11%;
+}
