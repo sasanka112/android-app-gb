@@ -81,8 +81,8 @@ div#dim-the-screen {
 
 
 #top-date-two {
-    top: 22%;
-    right: 7%;
+    top: 22.5%;
+    right: 8%;
     font-size: 18px;
     background-color: #FAF9F0;
     color: #000;
@@ -90,7 +90,7 @@ div#dim-the-screen {
     font-weight: bold;
 }
 #bottom-date-two{
-    top: 20.2%;
+    top: 20.6%;
     right: 10%;
     font-size: 13px;
     background-color: #FAF9F0;
@@ -107,8 +107,8 @@ div#order-no-two {
 
 div#time-count {
     color: #EA5555;
-    bottom: 4%;
-    left: 40%;
+    bottom: 2%;
+    left: 38%;
     font-size: 44px;
     width: 26%;
     background-color: #403B3B;
