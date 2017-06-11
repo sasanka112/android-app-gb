@@ -35,7 +35,7 @@ div#order-no {
     width: 14%;
 }
 div#paid-on-date {
-    top: 36.8%;
+    top: 37%;
     left: 36.8%;
     font-size: 14px;
     background-color: #5E8B9D;
@@ -82,7 +82,7 @@ div#dim-the-screen {
 
 #top-date-two {
     top: 22.5%;
-    right: 8%;
+    right: 7%;
     font-size: 18px;
     background-color: #FAF9F0;
     color: #000;
@@ -90,7 +90,7 @@ div#dim-the-screen {
     font-weight: bold;
 }
 #bottom-date-two{
-    top: 20.6%;
+    top: 20.3%;
     right: 10%;
     font-size: 13px;
     background-color: #FAF9F0;
