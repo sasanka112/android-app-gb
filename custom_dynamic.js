@@ -1,5 +1,5 @@
 
-
+//360 X 620
 
 var dynamic_name = "";
     var dynamic_price = "";
@@ -104,6 +104,47 @@ $("#dynamic-submit").click(function(){
 });
 
 
-$("#dynamic-resolution").click(function(){
-    alert($(window).height() +" height--width "+ $(window).width());
+
+var availableTags = [];
+
+for(var i=0;i<menu_item_data.length;i++)
+    availableTags.push(menu_item_data[i].counter);
+
+
+    $( "#dynamic-counter" ).autocomplete({
+      source: availableTags
+    });
+
+
+
+
+
+
+$('body').on('click', '#ui-id-1 li', function() {
+    dynamic_counter = $("#dynamic-counter").val();
+    for(var i=0;i<menu_item_data.length;i++){
+        if(menu_item_data[i].counter == dynamic_counter){
+            availableTags = [];
+            for(var j=0;j<menu_item_data[i].item.length;j++){
+                availableTags.push(menu_item_data[i].item[j].name);
+            }
+            $( "#dynamic-name" ).autocomplete({
+              source: availableTags
+            });
+        }
+    }
+});
+
+$('body').on('click', '#ui-id-5 li', function() {
+    dynamic_counter = $("#dynamic-counter").val();
+    dynamic_name = $("#dynamic-name").val();
+    for(var i=0;i<menu_item_data.length;i++){
+        if(menu_item_data[i].counter == dynamic_counter){
+            availableTags = [];
+            for(var j=0;j<menu_item_data[i].item.length;j++){
+                if(menu_item_data[i].item[j].name == dynamic_name)
+                    $("#dynamic-price").val(menu_item_data[i].item[j].price);
+            }
+        }
+    }
 });

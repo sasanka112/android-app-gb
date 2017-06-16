@@ -98,7 +98,7 @@ div#dim-the-screen {
     font-weight: 800;
 }
 div#order-no-two {
-    top: 21.7%;
+    top: 22%;
     left: 9%;
     font-weight: 700;
     font-size: 19px;
@@ -146,6 +146,7 @@ div#time-count {
     background-color: #FFFFFF;
     width: 40%;
     height: 6%;
+    color: #282828;
 }
 #item-name{
     top: 78.5%;
@@ -155,9 +156,12 @@ div#time-count {
     background-color: #FFFFFF;
     width: 40%;
     height: 3%;
+    color: #282828;
 }
+
+
 #item-price-next{
-        top: 29.5%;
+    top: 29.5%;
     right: 4.3%;
     font-weight: 500;
     font-size: 22px;
@@ -165,7 +169,7 @@ div#time-count {
     width: 11%;
 }
 #item-price-next-2{
-    top: 79.5%;
+    top: 77.2%;
     right: 4.3%;
     font-weight: bolder;
     font-size: 24px;
@@ -174,7 +178,7 @@ div#time-count {
 }
 
 #item-name-next{
-    top: 31%;
+    top: 30%;
     left: 8.3%;
     font-weight: 600;
     font-size: 21px;
@@ -183,11 +187,16 @@ div#time-count {
     height: 10%;
 }
 #item-quntity-next{
-    top: 31%;
+    top: 30%;
     left: 56.3%;
     font-weight: 600;
     font-size: 21px;
     background-color: #FAF9F0;
     width: 13%;
     height: 6%;
+}
+
+ul.ui-menu.ui-widget.ui-widget-content.ui-autocomplete.ui-front {
+    max-height: 30%;
+    overflow: scroll;
 }
