@@ -146,7 +146,7 @@ div#time-count {
     background-color: #FFFFFF;
     width: 40%;
     height: 6%;
-    color: #282828;
+    color: #3a3a3a;
 }
 #item-name{
     top: 78.5%;
@@ -155,8 +155,8 @@ div#time-count {
     font-size: 14px;
     background-color: #FFFFFF;
     width: 40%;
-    height: 3%;
-    color: #282828;
+    height: 5%;
+    color: #3a3a3a;
 }
 
 
@@ -181,7 +181,7 @@ div#time-count {
     top: 30%;
     left: 8.3%;
     font-weight: 600;
-    font-size: 21px;
+    font-size: 18px;
     background-color: #FAF9F0;
     width: 40%;
     height: 10%;
@@ -195,8 +195,32 @@ div#time-count {
     width: 13%;
     height: 6%;
 }
+#item-counter-next {
+    top: 13.5%;
+    left: 18.3%;
+    font-weight: bolder;
+    font-size: 23px;
+    background-color: #FAF9F0;
+    width: 62%;
+    height: 6%;
+    color: #3a3a3a;
+    text-align: center;
+}
+
+
 
 ul.ui-menu.ui-widget.ui-widget-content.ui-autocomplete.ui-front {
     max-height: 30%;
     overflow: scroll;
+}
+
+
+
+
+div#dynamic-form * {
+    margin: 0 auto;
+    display: table;
+    margin-top: 12%;
+    font-size: 20px;
+    width: 80%;
 }

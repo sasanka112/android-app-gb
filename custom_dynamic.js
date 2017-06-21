@@ -100,6 +100,7 @@ $("#dynamic-submit").click(function(){
     $("#item-name").html(dynamic_name +" x "+dynamic_quantity);
     $("#item-name-next").html(dynamic_name);
     $("#item-counter").html(dynamic_counter);
+    $("#item-counter-next").html(dynamic_counter.substring(8));
     $("#item-quntity-next").html("x "+dynamic_quantity);
 });
 

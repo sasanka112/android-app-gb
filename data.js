@@ -22,8 +22,24 @@
     {
         "counter": "Counter flavoured lime soda",
         "item": [{
-            "name": "Sweat & Salt Lime Soda",
+            "name": "Sweat & Salt Lime Soda Large",
             "price": "20"
+        }]
+    },
+    {
+        "counter": "Counter hot wok",
+        "item": [{
+            "name": "Veg Fried Rice Combo",
+            "price": "74"
+        },{
+            "name": "Veg Noodles",
+            "price": "74"
+        },{
+            "name": "Chicken Fried Rice",
+            "price": "88"
+        },{
+            "name": "Chicken Noodles",
+            "price": "88"
         }]
     }
 ]
