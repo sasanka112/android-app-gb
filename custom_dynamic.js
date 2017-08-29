@@ -65,6 +65,27 @@ $("#use-now-pop-up").click(function(){
     var fiveMinutes = 60 * 2,
         display = $('#time-count');
     startTimer(fiveMinutes, display);
+    var counter_type_gb = $("#dynamic-counter-type").val();
+    $("body").attr("class","");
+    if(counter_type_gb == "ovenfresh")
+        $("body").addClass("image-ovenfresh");
+    else if(counter_type_gb == "chats")
+        $("body").addClass("image-chats");
+    else if(counter_type_gb == "viva")
+        $("body").addClass("image-viva");
+    else if(counter_type_gb == "ovenfresh-pay"){
+        $("#wrapper-two div").addClass("hide");
+        $("#wrapper-two #time-count").removeClass("hide");
+        $("#wrapper-two #top-date-two").removeClass("hide");
+        $("#wrapper-two #item-quntity-next").removeClass("hide");
+        $("#wrapper-two #item-price-next").removeClass("hide");
+        $("#wrapper-two #item-name-next").text($("#wrapper-two #item-price-next").text());
+        $("#wrapper-two #item-name-next").removeClass("hide");
+        $("#wrapper-two #bottom-date-two").removeClass("hide");
+        $("body").addClass("image-ovenfresh-pay");
+    }
+    else
+        $("body").addClass("image-sodexo");
 });
 
 

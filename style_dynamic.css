@@ -220,7 +220,29 @@ ul.ui-menu.ui-widget.ui-widget-content.ui-autocomplete.ui-front {
 div#dynamic-form * {
     margin: 0 auto;
     display: table;
-    margin-top: 12%;
+    margin-top: 10%;
     font-size: 20px;
     width: 80%;
+}
+
+
+.image-sodexo{
+    background-image: url(3.png);
+    background-size: cover;
+}
+.image-ovenfresh{
+    background-image: url(ovenfresh.png);
+    background-size: cover;
+}
+.image-chats{
+    background-image: url(chats.png);
+    background-size: cover;
+}
+.image-viva{
+    background-image: url(viva.png);
+    background-size: cover;
+}
+.image-ovenfresh-pay{
+    background-image: url(ovenfresh-pay.png);
+    background-size: cover;
 }
