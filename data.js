@@ -94,5 +94,92 @@
             "name": "Set Dosa",
             "price": "33"
         }]
+    },
+    {
+        "counter": "Counter Sandwiches",
+        "item": [{
+            "name": "Veg Sandwiche",
+            "price": "33"
+        },{
+            "name": "Paneer Sandwiche",
+            "price": "40"
+        },{
+            "name": "Masala Sandwiche",
+            "price": "40"
+        },{
+            "name": "Chicken Sandwiche",
+            "price": "51"
+        },{
+            "name": "Egg Sandwiche",
+            "price": "33"
+        }]
+    },
+    {
+        "counter": "Counter Rolls",
+        "item": [{
+            "name": "Veg Roll",
+            "price": "24"
+        },{
+            "name": "Jam Roll",
+            "price": "22"
+        }]
+    },
+    {
+        "counter": "Counter Pizzas",
+        "item": [{
+            "name": "Paneer Pan Pizza",
+            "price": "66"
+        },{
+            "name": "Veg Pizza Small",
+            "price": "48"
+        },{
+            "name": "Spicy Chicken Pizza",
+            "price": "88"
+        }]
+    },
+    {
+        "counter": "Counter Beverages",
+        "item": [{
+            "name": "Papaya Milkshake",
+            "price": "32"
+        },{
+            "name": "Watermelon Milkshake",
+            "price": "30"
+        },{
+            "name": "Anjur Milkshake",
+            "price": "32"
+        },{
+            "name": "Fruit Lassi",
+            "price": "33"
+        },{
+            "name": "Grape Juice",
+            "price": "26"
+        }]
+    },
+    {
+        "counter": "Counter Recommended",
+        "item": [{
+            "name": "Masala Puri",
+            "price": "26"
+        },{
+            "name": "Kachori",
+            "price": "12"
+        }]
+    },
+    {
+        "counter": "Counter All",
+        "item": [{
+            "name": "Sev Puri",
+            "price": "26"
+        },{
+            "name": "Dahi Puri",
+            "price": "26"
+        },{
+            "name": "Dahi Kachori",
+            "price": "26"
+        },{
+            "name": "Samosa",
+            "price": "12"
+        }]
     }
 ]
