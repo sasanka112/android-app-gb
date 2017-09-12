@@ -73,6 +73,8 @@ $("#use-now-pop-up").click(function(){
         $("body").addClass("image-chats");
     else if(counter_type_gb == "viva")
         $("body").addClass("image-viva");
+    else if(counter_type_gb == "ke-food")
+        $("body").addClass("image-ke-food");
     else if(counter_type_gb == "ovenfresh-pay"){
         $("#wrapper-two div").addClass("hide");
         $("#wrapper-two #time-count").removeClass("hide");
