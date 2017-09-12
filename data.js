@@ -181,5 +181,24 @@
             "name": "Samosa",
             "price": "12"
         }]
+    },
+    {
+        "counter": "Counter Kumar energy foods",
+        "item": [{
+            "name": "Cocovita Energy Drink",
+            "price": "43"
+        },{
+            "name": "Sugarcane Juice",
+            "price": "25"
+        },{
+            "name": "Tender Coconut",
+            "price": "34"
+        },{
+            "name": "Combo Meals",
+            "price": "50"
+        },{
+            "name": "Ragi Juice",
+            "price": "31"
+        }]
     }
 ]
