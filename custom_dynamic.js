@@ -116,10 +116,12 @@ $("#dynamic-submit").click(function(){
     dynamic_price = $("#dynamic-price").val();
     dynamic_counter = $("#dynamic-counter").val();
     dynamic_quantity = $("#dynamic-quantity").val();
+    dynamic_price = parseInt(dynamic_price) * parseInt(dynamic_quantity);
     $("#wrapper").removeClass("hide");
     $("#dynamic-form").addClass("hide");
 
-    $("#item-price,#item-price-next,#item-price-next-2").html(dynamic_price);
+    $("#item-price-next,#item-price-next-2").html( "&#x20b9; "+dynamic_price);
+    $("#item-price").html( dynamic_price);
     $("#item-name").html(dynamic_name +" x "+dynamic_quantity);
     $("#item-name-next").html(dynamic_name);
     $("#item-counter").html(dynamic_counter);
