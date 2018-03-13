@@ -86,7 +86,8 @@ div#dim-the-screen {
     font-size: 18px;
     background-color: #FAF9F0;
     color: #000;
-    width: 19%;
+    width: 30%;
+    text-align: right;
     font-weight: bold;
 }
 #bottom-date-two{
@@ -249,5 +250,9 @@ div#dynamic-form * {
 }
 .image-ke-food{
     background-image: url(ke_foods.png);
+    background-size: cover;
+}
+.image-chat-pay{
+    background-image: url(chat-pay.png);
     background-size: cover;
 }

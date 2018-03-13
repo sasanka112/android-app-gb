@@ -86,6 +86,17 @@ $("#use-now-pop-up").click(function(){
         $("#wrapper-two #bottom-date-two").removeClass("hide");
         $("body").addClass("image-ovenfresh-pay");
     }
+    else if(counter_type_gb == "chat-pay"){
+        $("#wrapper-two div").addClass("hide");
+        $("#wrapper-two #time-count").removeClass("hide");
+        $("#wrapper-two #top-date-two").removeClass("hide");
+        $("#wrapper-two #item-quntity-next").removeClass("hide");
+        $("#wrapper-two #item-price-next").removeClass("hide");
+        $("#wrapper-two #item-name-next").text($("#wrapper-two #item-price-next").text());
+        $("#wrapper-two #item-name-next").removeClass("hide");
+        $("#wrapper-two #bottom-date-two").removeClass("hide");
+        $("body").addClass("image-chat-pay");
+    }
     else
         $("body").addClass("image-sodexo");
 });

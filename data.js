@@ -22,6 +22,21 @@
         {
             "name": "Egg Biryani with Raita",
             "price": "74"
+        },{
+            "name": "Cocovita Energy Drink",
+            "price": "43"
+        },{
+            "name": "Sugarcane Juice",
+            "price": "25"
+        },{
+            "name": "Tender Coconut",
+            "price": "34"
+        },{
+            "name": "Combo Meals",
+            "price": "50"
+        },{
+            "name": "Ragi Juice",
+            "price": "31"
         }]
     },
     {
