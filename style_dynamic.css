@@ -256,3 +256,11 @@ div#dynamic-form * {
     background-image: url(chat-pay.png);
     background-size: cover;
 }
+.image-dosa-pay{
+    background-image: url(dosa_pay.png);
+    background-size: cover;
+}
+.image-bharat-pay{
+    background-image: url(bharat_traders_pay.png);
+    background-size: cover;
+}

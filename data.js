@@ -65,6 +65,9 @@
             "name": "Veg Noodles",
             "price": "74"
         },{
+            "name": "Non-Veg Noodles Combo",
+            "price": "74"
+        },{
             "name": "Chicken Fried Rice",
             "price": "88"
         },{
